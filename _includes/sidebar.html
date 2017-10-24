@@ -1,0 +1,23 @@
+<div class="col-md-offset-1 col-md-3">
+    <div class="post-img">
+        
+    </div>
+    
+    <div class="mt10 recent">
+        Learn more &rarr;
+        <ul>
+            <li>
+                <img src="{{site.baseurl}}/images/dockercon.png" alt="Dockercon"/>
+                <p>Register for DockerCon! - <a href="http://europe.dockercon.com/">http://europe.dockercon.com/</a></p>
+            </li>
+            <li>
+                {% if page.img %}
+                <img width="200" src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
+                {% else %}
+                <img width="200" src="{{site.baseurl}}/images/{{site.default-image}}" alt="Docker">
+                {% endif %} <p>Join the nomad community on Gitter! Connect with your peers, share ideas and ask questions - <a href="https://gitter.im/hashicorp-nomad">Enter here</a></p>
+            </li>
+        </ul>
+    </div>
+    
+</div>
