@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jobs"
-date:   2017-10-24
+date:   2017-10-23
 tags: [intro]
 categories: beginner
 ---
