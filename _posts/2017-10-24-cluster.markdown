@@ -132,5 +132,5 @@ it down with `nomad stop`.
 ## Next Steps
 
 We've now concluded the getting started guide, however there are a number
-of [next steps](next-steps.html) to get started with Nomad.
+of [next steps](https://www.nomadproject.io/intro/getting-started/next-steps.html) to get started with Nomad.
 
