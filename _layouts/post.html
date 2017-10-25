@@ -52,7 +52,7 @@ layout: default
 <script src="https://cdn.rawgit.com/play-with-docker/sdk/master/dist/pwd.js"></script>
 <script src="{{site.baseurl}}/js/quiz.js"></script>
 <script>
-    pwd.newSession([{selector: '.term1'}, {selector: '.term2'}, {selector: '.term3'}], {baseUrl: 'http://play-with-nomad.com', ImageName: '{{page.image}}'});
+    pwd.newSession([{selector: '.term1'}, {selector: '.term2'}, {selector: '.term3'}], {baseUrl: 'http://host1.localhost', ImageName: '{{page.image}}'});
     $(".panel-left").resizable({
         handleSelector: ".splitter",
         resizeHeight: false,

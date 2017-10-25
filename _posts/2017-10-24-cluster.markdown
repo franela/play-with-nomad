@@ -19,8 +19,6 @@ the file from the [repository here](https://github.com/hashicorp/nomad/tree/mast
 or paste this into a file called `server.hcl`:
 
 ```.term1
-#We'll first kill the current dev nomad agent
-killall nomad
 echo '# Increase log verbosity
 log_level = "DEBUG"
 
@@ -67,8 +65,6 @@ the configuration for client1 and client2 from the
 paste the following into `client.hcl`:
 
 ```.term2
-#We'll first kill the current dev nomad agent
-killall nomad
 echo '# Increase log verbosity
 log_level = "DEBUG"
 
