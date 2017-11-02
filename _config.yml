@@ -36,8 +36,8 @@ analytics: UA-89019737-1
 
 
 #social
-facebook: 
-twitter: 
+facebook: https://www.facebook.com/HashiCorp/
+twitter: https://www.twitter.com/HashiCorp/
 github: https://github.com/franela/play-with-nomad
 twitter_username: hashicorp
 youtube: 
